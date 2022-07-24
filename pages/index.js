@@ -15,7 +15,7 @@ export default function Home() {
     <div >
         
         <Stack spacing={2}>
-         <Button variant="outlined"  onClick={() => handleClick("/amenities")}>
+         <Button variant="outlined" style={{color: "GrayText"}} onClick={() => handleClick("/amenities")}>
            Amenities
          </Button>
          <Button variant="outlined"  onClick={() => handleClick("/community")}>

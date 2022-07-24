@@ -116,8 +116,7 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .card,
+@media (prefers-color-scheme: dark) {s
   .footer {
     border-color: #222;
   }
