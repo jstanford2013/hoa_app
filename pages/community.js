@@ -52,6 +52,7 @@ export default function Home() {
     <div>
      <Stack style={{alignItems: "center"}}>
      <VendorCard image="/drone.webp"  title="Drone Business" description="Great Drone Business Cheap!" site="https://exodrones.com"></VendorCard>
+     <VendorCard image="/drone.webp"  title="new Biz" description="Great stuff for you !" site="https://exodrones.com"></VendorCard>
     <Button variant="outlined"  onClick={() => handleClick("/")} style={{marginTop: "3%"}}>
         Home
       </Button>
