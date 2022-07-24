@@ -19,7 +19,13 @@ export default function Home() {
   return (
     <div>
      <Stack style={{alignItems: "center"}}>
-    
+     <Image
+        alt="Mountains"
+        src={img}
+        layout="responsive"
+        width={1200}
+        height={900}
+      />
     <Button variant="outlined"  onClick={() => handleClick("/")} style={{marginTop: "3%"}}>
         Home
       </Button>
