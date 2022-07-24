@@ -1,12 +1,11 @@
 import '../styles/globals.css'
 import Image from 'next/image'
-import React, { useState, useEffect } from 'react'
-import img from "../public/hoa_logo.png"
 
 function MyApp({ Component, pageProps }) {
-
   return(
     <div style={{display: "flex", justifyItems: "center", alignItems: "center", flexDirection: "column"}}>
+
+       <img src={'/hoa_logo.png'} alt="this is car image" style={{justifyItems: "center"}} />
       <Component {...pageProps} />
     </div>
   ) 

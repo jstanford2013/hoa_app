@@ -15,13 +15,6 @@ export default function Home() {
     <div >
         
         <Stack spacing={2}>
-        <Image
-        alt="Mountains"
-        src="/hoa_logo.png"
-        layout="responsive"
-        width={700}
-        height={450}
-      />
          <Button variant="outlined"  onClick={() => handleClick("/amenities")}>
            Amenities
          </Button>
