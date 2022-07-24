@@ -21,10 +21,10 @@ export default function Home() {
      <Stack style={{alignItems: "center"}}>
      <Image
         alt="Mountains"
-        src={img}
+        src="/hoa_logo.png"
         layout="responsive"
-        width={1200}
-        height={900}
+        width={700}
+        height={450}
       />
     <Button variant="outlined"  onClick={() => handleClick("/")} style={{marginTop: "3%"}}>
         Home
