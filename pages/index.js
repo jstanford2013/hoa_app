@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <div >
-        
+
         <Stack spacing={2}>
          <Button variant="outlined" style={{color: "GrayText"}} onClick={() => handleClick("/amenities")}>
            Amenities
