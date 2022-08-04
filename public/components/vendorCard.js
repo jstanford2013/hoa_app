@@ -10,7 +10,7 @@ import Link from 'next/link';
 
 export function VendorCard(props){
     return(
-        <Card sx={{ maxWidth: 345 }} className={styles.vendor}>
+        <Card className={styles.vendor}>
           <CardMedia
             component="img"
             image={props.image}
