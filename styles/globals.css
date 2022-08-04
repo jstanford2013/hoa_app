@@ -1,5 +1,6 @@
 html,
 body {
+  display: flex;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -22,6 +23,7 @@ a {
     color-scheme: dark;
   }
   body {
+    display: flex;
     color: white;
     background: black;
   }
