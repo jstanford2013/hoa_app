@@ -12,10 +12,10 @@ export default function Home() {
   };
 
   return (
-    <div >
+    <div>
         
         <Stack spacing={2}>
-         <Button variant="outlined" style={{color: "GrayText"}} onClick={() => handleClick("/amenities")}>
+         <Button variant="outlined" onClick={() => handleClick("/amenities")}>
            Amenities
          </Button>
          <Button variant="outlined"  onClick={() => handleClick("/community")}>

@@ -15,7 +15,6 @@ a {
 
 * {
   box-sizing: border-box;
-  background-color: #fefefe;
 }
 
 @media (prefers-color-scheme: dark) {
