@@ -51,11 +51,12 @@ export default function Home() {
   return (
     <div>
      <Stack style={{alignItems: "center"}}>
-     <VendorCard image="/drone.webp"  title="Drone Business" description="Great Drone Business Cheap!" site="https://exodrones.com"></VendorCard>
-     <VendorCard image="/drone.webp"  title="new Biz" description="Great stuff for you !" site="https://exodrones.com"></VendorCard>
-    <Button variant="outlined"  onClick={() => handleClick("/")} style={{marginTop: "3%"}}>
-        Home
-      </Button>
+        <VendorCard image="/drone.webp"  title="Drone Business" description="High Quality Drone Services" site="https://exodrones.com"></VendorCard>
+        <VendorCard image="/REALTOR.jpg"  title="Local Real Estate" description="Great stuff for you !" site="https://www.redfin.com"></VendorCard>
+        <VendorCard image="/CBAlogo.png"  title="Brothers Automotive" description="Mention HP for 5% off" site="https://www.cbac.com"></VendorCard>
+        <Button variant="outlined"  onClick={() => handleClick("/")} style={{marginBottom: "5%"}}>
+          Home
+        </Button>
       </Stack>
     </div>
   )
